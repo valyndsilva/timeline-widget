@@ -1,6 +1,6 @@
 # Timeline Widget (Horizontal)
 
-A simple timeline-widget (horizontal) buit using React.js, TypeScript,Next.js, Tailwind CSS and more.
+A simple timeline-widget (horizontal) built using React.js, TypeScript,Next.js, Tailwind CSS and more.
 
 ## Prerequisites
 
@@ -33,3 +33,7 @@ npm install
 ```
 npm run dev
 ```
+
+Screencast: https://www.loom.com/share/107035142fcc4cf28a77f8eea1603b32?sid=19c3da06-2660-4f44-8e1a-3e366d62e304
+
+Responsive Screencast: https://www.loom.com/share/affe2eee46b047b4828013ab8e64f769?sid=2a10cc1e-8a67-4bfd-b28c-053f36b7ae21
