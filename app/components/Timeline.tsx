@@ -83,9 +83,9 @@ export default function Timeline() {
     updatedEvents[eventIndex].isChecked = !updatedEvents[eventIndex].isChecked;
     setEvents(updatedEvents);
     if (updatedEvents[eventIndex].isChecked) {
-      toast.success("Timeline story is marked complete!");
+      toast.success("Timeline event is marked complete!");
     } else {
-      toast.error("Timeline story is marked incomplete!");
+      toast.error("Timeline event is marked incomplete!");
     }
   };
 
