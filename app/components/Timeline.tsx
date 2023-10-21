@@ -7,6 +7,7 @@ import TimelineNav from "./TimelineNav";
 import TimelineEditor from "./TimelineEditor";
 
 export default function Timeline() {
+
   // Ref to the timeline container
   const containerRef = useRef<HTMLOListElement | null>(null);
 
@@ -18,8 +19,8 @@ export default function Timeline() {
   // State for event editing
   const [eventToEdit, setEventToEdit] = useState<EventData | null>(null);
 
-  // Get events and set events from context
-  const { events, setEvents } = useContext(WidgetContext);
+  // Get events, set events and line color from context
+  const { events, setEvents, lineColor } = useContext(WidgetContext);
 
   // Effect to update navigation and scroll position
   useEffect(() => {
@@ -96,7 +97,7 @@ export default function Timeline() {
         {events.length > 0 ? (
           <>
             <ol
-              className="items-center  sm:flex overflow-x-auto no-scrollbar w-full sm:p-6 border-l-2 border-gray-200  sm:border-2 sm:rounded-md "
+              className="items-center  sm:flex overflow-x-auto no-scrollbar w-full sm:p-6 border-l-2 sm:border-2 sm:rounded-md"
               ref={containerRef}
               onScroll={(e) => setScrollPosition(e.currentTarget.scrollLeft)}
             >

@@ -12,7 +12,7 @@ export default function Icon({ handlePointClick, isChecked }: Props) {
 
   return (
     <div
-      className="z-10 absolute left-3 sm:-left-[15px] sm:static flex items-center justify-center w-10 h-10 rounded-full shrink-0 text-white"
+      className="z-10 absolute left-0 sm:-left-[15px] sm:static flex items-center justify-center w-10 h-10 rounded-full shrink-0 text-white"
       style={{
         backgroundColor: isChecked ? checkedColor : uncheckedColor,
       }}

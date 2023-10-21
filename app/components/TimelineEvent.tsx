@@ -23,7 +23,6 @@ export default function TimelineEvent({
   const { lineColor, textColor, editSectionRef } = useContext(WidgetContext);
 
   const handleEditClick = (event: EventData) => {
-    
 
     //Scroll to the "Edit Event" section when clicking "Edit" on mobile
     if (editSectionRef.current) {
