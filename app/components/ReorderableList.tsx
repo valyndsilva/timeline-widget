@@ -12,7 +12,7 @@ export default function ReorderableList({ events }: Props) {
 
   // Function to handle drag and sorting
   const handleSort = () => {
-    // Duplicate the items
+    // Creates a shallow copy of events array.
     const reorderedEvents = [...events];
 
     // Remove and save the dragged item's content

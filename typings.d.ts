@@ -1,6 +1,6 @@
 // Define the EventData structure as needed
 type EventData = {
-  id: number;
+  id?: number;
   title: string;
   desc?: string;
   imgUrl?: string;
@@ -11,3 +11,6 @@ type Icon = {
   name: string;
   icon: React.JSX.Element;
 };
+
+valyndsilva
+l6MEaHQYxN1sFcZk

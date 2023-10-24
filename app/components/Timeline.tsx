@@ -6,6 +6,8 @@ import TimelineEvent from "./TimelineEvent";
 import TimelineNav from "./TimelineNav";
 import TimelineEditor from "./TimelineEditor";
 
+
+
 export default function Timeline() {
 
   // Ref to the timeline container
