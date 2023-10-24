@@ -12,5 +12,3 @@ type Icon = {
   icon: React.JSX.Element;
 };
 
-valyndsilva
-l6MEaHQYxN1sFcZk
